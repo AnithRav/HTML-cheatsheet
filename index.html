@@ -41,9 +41,57 @@
                 </tr>
             </thead>
             <tbody>
-
+                <tr>
+                    <td>Bukayo Saka</td>
+                    <td>saka@starboy.com</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>LeBron James</td>
+                    <td>king@chosen1.com</td>
+                    <td>38</td>
+                 </tr>    
+                 <tr>
+                    <td>Alexis Sanchez</td>
+                    <td>no7@emiratesgoat.com</td>
+                    <td>33</td>
+                </tr>
             </tbody>
         </table>
-
+        <!--This is what a default table looks like with no CSS, just HTML markup-->
+<br>
+<hr>
+<br>
+        <!--Forms-->
+        <form action="process.php" method="GET"> <!--More advanced server programming-->
+            <div>
+                <label>First Name</label>
+                <input type="text" name="firstName">
+            </div>
+            <br> <!--Would use CSS to add padding instead of this line break-->
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lastName">
+            </div>
+            <br> 
+            <div>
+                <label>Email</label>
+                <input type="email" name="email"> <!--Email is new input type in HTML5 which allows more verification-->
+            </div>
+            <br> 
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea> <!--Textarea tag is used instead of input tag for bigger messages-->
+            </div>
+            <br> 
+            <div>
+                <label>Gender</label>
+                <select name="gender"> <!--Select tag for list for choice based data-->
+                    <option value="male">Male</option> <!--Option tag for the options that appear in dropdown list-->
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </form>
     </body>
     </html>
