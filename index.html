@@ -66,12 +66,12 @@
         <form action="process.php" method="GET"> <!--More advanced server programming-->
             <div>
                 <label>First Name</label>
-                <input type="text" name="firstName">
+                <input type="text" name="firstName" placeholder="Enter First Name"> <!--Added placeholder line, goes away when clicked-->
             </div>
             <br> <!--Would use CSS to add padding instead of this line break-->
             <div>
                 <label>Last Name</label>
-                <input type="text" name="lastName">
+                <input type="text" name="lastName" placeholder="Enter Last Name">
             </div>
             <br> 
             <div>
@@ -102,6 +102,18 @@
                     <label>Birthday:</label>
                     <input type="date" name="birthday">
                 </div>
+                <br>
+                <input type="submit" name="submit" value="Submit">
         </form>
+        <br>
+
+        <!--Sample Button-->
+        <button>Click Me</button>
+        <!--Button has no fuction, usually done with JS eg <button click="someFunction"Click Me</button> but 
+            only learning HTML now, HTML is a markup language to show things on the screen. JS makes webpages dynamic-->
+
+        <br>
+        <!--Image-->
+        <img src="cat1.jpg">
     </body>
     </html>
